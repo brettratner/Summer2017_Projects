@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class SpeedPowerup : MonoBehaviour {
 	public float Multiplyer = 2f;
-	public float  P1Speed;
-	public float  P2Speed;
+
 
 
 	void OnCollisionEnter (Collision col)

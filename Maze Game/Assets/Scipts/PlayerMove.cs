@@ -14,11 +14,11 @@ public class PlayerMove : MonoBehaviour {
 	void Start () {
 		rb = GetComponent<Rigidbody>();
 		if (gameObject.tag == ("Player1")) {
-			P1speed = 5f;
+			P1speed = 10f;
 
 		}
 		if(gameObject.tag==("Player2")){
-			P2speed = 5f;
+			P2speed = 10f;
 		}
 
 
@@ -29,8 +29,8 @@ public class PlayerMove : MonoBehaviour {
 	void Update () {
 		float moveHorizontal = Input.GetAxis (horzMov);
 		float moveVertical = Input.GetAxis (vertMov);
-		Debug.Log ("Speed1 is: " + P1speed);
-		Debug.Log ("Speed2 is: " + P2speed);
+	//	Debug.Log ("Speed1 is: " + P1speed);
+    //	Debug.Log ("Speed2 is: " + P2speed);
 
 		Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
 

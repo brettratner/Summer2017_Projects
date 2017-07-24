@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scipts\PlayerMove.cs" />
      <Compile Include="Assets\Scipts\SpeedPowerdown.cs" />
      <Compile Include="Assets\Scipts\SpeedPowerup.cs" />
+     <Compile Include="Assets\Scipts\Switch.cs" />
      <Compile Include="Assets\Scipts\TimePowerup.cs" />
      <Compile Include="Assets\Scipts\Timer.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples\Scripts\Benchmark01.cs" />
