@@ -14,7 +14,6 @@ public class OutOfBounds : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (this.gameObject.transform.position.y < -5.0f && this.gameObject == Player1) {
-			Debug.Log ("the game object name is: " + this.gameObject);
 			Player1.transform.position = new Vector3 (1.0f, 0.5f, 0.0f);
 			rb.isKinematic = true;
 		} else {
